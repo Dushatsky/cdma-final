@@ -200,8 +200,8 @@ class mainPage:
     def show_img(self):
         self.img0C.create_image((0, 0), anchor='nw', image=self.img0)
         #self.img0C.pack()
-        self.img0C.create_image((50, 0), anchor='nw', image=self.img1)
-        self.img0C.pack()
+        self.img1C.create_image((0, 0), anchor='nw', image=self.img1)
+        # self.img1C.pack()
 
     def encode_b(self):
         user0vec = convert_img2vector(self.user0mat)
